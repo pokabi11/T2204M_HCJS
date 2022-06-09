@@ -1,0 +1,28 @@
+h1{
+    color:#f24f61;
+}
+p{
+    color:rgb(22,65,65);
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 1.25;/*1.25x16px*/
+    text-align: justify;/*left right center justify*/
+    text-transform:lowercase;/*uppercase lowercase*/
+    text-decoration: none;/*underline line-through overline none*/
+    text-indent:10px;
+    font-style:italic;
+
+    width:500px;
+}
+body{
+    background-color:rgb(200,250,242);
+    background-image:url("../images/meme-pop-cat-pack.png");
+    background-size: cover;
+}
+div{
+    padding:50px;
+    margin:30px;
+    background-color:#ffffff;
+    opacity:0.6;
+}

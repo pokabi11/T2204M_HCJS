@@ -1,0 +1,23 @@
+h4{
+    color:rgb(165,65,92);
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style:italic;
+    line-height: 1.25;
+    text-indent:16px;
+    text-decoration: underline;
+
+}
+hr{
+    border-color:rgb(165,65,92);
+}
+p{
+    color:rgb(22,65,65);
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.25;/*1.25x16px*/
+    text-align: justify;/*left right center justify*/
+    text-decoration: none;/*underline line-through overline none*/
+    text-indent:16px;
+
+}
