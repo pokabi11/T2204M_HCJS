@@ -1,0 +1,57 @@
+h2{
+    color:rgb(165,65,92);
+    font-family: sans-serif;
+    line-height: 1.25;
+    text-indent:16px;
+    width: 600px;
+
+}
+h3{
+    color:rgb(165,65,92);
+    font-family: sans-serif;
+}
+h4{
+    color:rgb(165,65,92);
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.25;
+    text-indent:16px;
+}
+h5{
+    color:rgb(83,31,116);
+    font-family: sans-serif;
+    font-weight: normal;
+    text-decoration-style: initial;
+}
+h6{
+    color:rgb(22,65,65);
+    font-family: sans-serif;
+}
+p{
+    color:rgb(22,65,65);
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.25;/*1.25x16px*/
+    text-align: justify;/*left right center justify*/
+    text-decoration: none;/*underline line-through overline none*/
+    text-indent:16px;
+}
+div.a {
+    text-align: justify;  /* For Edge */
+    text-align-last: right;}
+div.b {
+    color:rgb(22,65,65);
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: right;  /* For Edge */
+    text-align-last: right;}
+ul{
+    color:rgb(22,65,65);
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.25;/*1.25x16px*/
+    text-align: justify;/*left right center justify*/
+    text-decoration: none;/*underline line-through overline none*/
+    text-indent:16px;
+
+}
