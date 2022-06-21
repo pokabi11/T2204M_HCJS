@@ -1,0 +1,20 @@
+input{
+
+}
+.form-control{
+    font-size: 18px;
+    background-color: orange;
+}
+input[type='email']{
+    background-color: red;
+}
+input[type='password']{
+    background-color: blueviolet;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li a{
+    font-size: 24px;
+    color: lightsalmon;
+}

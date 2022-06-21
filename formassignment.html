@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fontassignment</title>
+    <link rel="stylesheet" href="css/formassignment.css">
+</head>
+<body>
+<section>
+    <h3>Create task</h3>
+    <div>
+        <input required name="fullname" type="text" placeholder="Type">
+    </div>
+<div class="box">
+    <div>
+    <select name="company">
+        <option value="" disabled selected>Company</option>
+        <option value="VN">Vietnam</option>
+        <option value="JP">Japan</option>
+        <option value="US">United States</option>
+        <option value="UK">United Kingdom</option>
+    </select>
+    </div>
+        <div>
+            <select name="opport">
+            <option value="" disabled selected>Opportunity</option>
+            <option value="VN">Vietnam</option>
+            <option value="JP">Japan</option>
+            <option value="US">United States</option>
+            <option value="UK">United Kingdom</option>
+         </select>
+    </div>
+</div>
+
+    <div>
+        <input required name="taskname" type="text" placeholder="Task name">
+    </div>
+    <div>
+        <input required name="CC" type="text" placeholder="CC">
+    </div>
+    <div class="checkbox">
+        <div class="checkboxin">
+            <p>Nature of request</p>
+            <label><input name="nat.confirm" type="checkbox"/> Ads review<br></label>
+            <label><input name="nat.confirm" type="checkbox"/> Ads review<br></label>
+            <label><input name="nat.confirm" type="checkbox"/> Ads review<br></label>
+        </div>
+        <div class="checkboxin">
+            <p>Current reviewable status</p>
+            <label><input name="status.confirm" type="radio">Approved<br></label>
+            <label><input name="status.confirm" type="radio">Not approved<br></label>
+        </div>
+    </div>
+</section>
+</body>
+</html>
