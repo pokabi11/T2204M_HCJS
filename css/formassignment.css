@@ -1,45 +1,71 @@
 body{
-    background-color: rgb(229,229,229);
+    background-color: rgb(153,87,87);
+    font-family: sans-serif;
+    font-weight: lighter;
+
 }
 section{
-    background-color: white;
+    background-color: rgb(230,130,130);
     width: 500px;
-    height: 400px;
+    height: 550px;
 
     border-radius: 25px;
-    border: 2px rgb(224,224,224);
+    border: 2px;
     padding: 20px;
     margin: auto;
-
-    font-size: 20px;
-    font-family: sans-serif;
-    text-align:justify;
-
 }
-input[type='text']{
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.boxmodel{
     border-radius: 2px 2px 0 0 ;
     background-color: rgb(224,224,224);
-    margin:auto;
+    margin:20px 0 0 0;
     width: 100%;
 
 }
-select{
-    border-radius: 2px 2px 0 0 ;
-    background-color: rgb(224,224,224);
-    margin:auto;
-    width: 100%;
-}
-.box {
+.box{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
-.checkbox{
+.splitbox{
     padding: 5px;
     margin: 0;
     display: flex;
     justify-content: space-between;
 }
-.checkboxin {
+.splitboxin{
     text-align: left;
+    color: #f6c7c7;
+    margin: 10px;
+    padding: 15px;
+}
+.splitboxin label{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.optional{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin: 0 0 0 10px;
+    color: #f6c7c7;
+}
+.header1{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    color: #f6c7c7;
+    margin-left: 10px;
 }
