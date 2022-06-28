@@ -108,7 +108,9 @@ function checkPrime(n){
 
 var min=10,sec=3,mid=":";
 var clocktime = setInterval(function(){
-    console.log("time remain "+min + mid + sec);
+    var minoutput=min>=10?min:"0"+min;//toan tu 3 ngoi
+    var secoutput=sec>=10?sec:"0"+sec;
+    console.log("time remain "+minoutput + mid + secoutput);
     sec--;
     if(sec==-1){
         sec+=60;
