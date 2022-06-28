@@ -1,0 +1,89 @@
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.salmon{
+    background-color: salmon;
+}
+.sidenav{
+    height: 100%;
+    position: fixed;
+    background-color: rgb(22,65,65);
+
+}
+/*sidenav link*/
+.sidenav a{
+    color: beige;
+    text-decoration:none;
+    display:block;
+    transition: 0.3s;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+/*hover color*/
+.sidenav a:hover {
+    color: #e9bebe;
+}
+.sidenav ul{
+    list-style: none;
+    position: relative;
+}
+.sidenav ul li{
+
+}
+.sidenav ul li a{
+    color: beige;
+    padding: 0;
+    text-decoration:none;
+    display:flex;
+    align-items: center;
+}
+.sidenav ul li a i{
+    padding: 10px;
+}
+.icon {
+    display: block;
+    width: 100%;
+    padding: 10%;
+}
+.sidenav p{
+    color: beige;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration:none;
+}
+footer{
+    color: beige;
+    bottom: 0;
+    position: absolute;
+    margin: 10px 10% 10px 10%;
+}
+footer:hover{
+    color: #e9bebe;
+}
+#footertext{
+    color:#658080;
+}
+.mainred{
+    background-color: red;
+    position: fixed;
+}

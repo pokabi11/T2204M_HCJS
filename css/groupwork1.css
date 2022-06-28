@@ -1,0 +1,79 @@
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    background-color: rgb(22,65,65);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+/*sidenav link*/
+.sidenav a{
+    color: beige;
+    text-decoration:none;
+    display:block;
+    padding: 8px 8px 8px 32px;
+    transition: 0.3s;
+}
+/*hover color*/
+.sidenav a:hover {
+    color: #e9bebe;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.sidenav ul{
+    list-style: none;
+    position: relative;
+}
+.sidenav ul li{
+
+}
+.sidenav ul li a{
+    color: beige;
+    padding: 0;
+    text-decoration:none;
+    display:flex;
+    align-items: center;
+}
+.sidenav ul li a i{
+    padding: 10px;
+}
+.icon {
+    display: block;
+    width: 100%;
+    padding: 10%;
+}
+.sidenav p{
+    color: beige;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration:none;
+}
+footer{
+    color: beige;
+    bottom: 0;
+    position: absolute;
+    margin: 10px 10% 10px 10%;
+}
+footer:hover{
+    color: #e9bebe;
+}
+#footertext{
+    color:#658080;
+}
+.mainred{
+    background-color: red;
+    position: fixed;
+}
