@@ -108,11 +108,7 @@ function checkPrime(n){
 
 var min=10,sec=3,mid=":";
 var clocktime = setInterval(function(){
-    if(0<min<10){
-        console.log("time remain "+"0"min + mid + sec);
-    }else{
-        console.log("time remain "+min + mid + sec);
-    }
+    console.log("time remain "+min + mid + sec);
     sec--;
     if(sec==-1){
         sec+=60;
