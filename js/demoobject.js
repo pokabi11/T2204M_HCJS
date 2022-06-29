@@ -90,5 +90,5 @@ console.log(currentWeather.main.pressure);
 console.log(currentWeather.weather[0].description);
 
 var h = document.getElementById("tit");
-h.innerText="Wao hi sister!?";
+h.innerText="Wao hi sister";
 h.style.color="red";

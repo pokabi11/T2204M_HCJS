@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>assignmentjs2</title>
+    <link rel="stylesheet" href="css/assignmentjs2.html.css">
+</head>
+<body>
+
+<h2>kết quả thời tiết</h2>
+<div id="mbox_cover" class="mbox_cover">
+    <div class="mbox">
+        <img id="imgstatus" class="imgstatus" src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png">
+        <div class="mbox_temp" aria-level="3" role="heading"><!--temp-->
+            <div>
+                <div class="temp">
+                    <span id="mbox_tm" class="mbox_t" style="display:inline">29</span>
+                </div>
+                <div class="temp_mini">
+                    <span class="mbox_t" style="display: inline" aria-level="°Celcius" aria-disabled="true" role="button">°C</span>
+                </div>
+            </div>
+        </div>
+        <div class="mbox1"><!--mbox-mainboxstatus-->
+            <div>
+                Khả năng có mưa:<!-- pp là khả năng có mưa-->
+                <span id="mbox_pp">0%</span>
+            </div>
+            <div>
+                Độ ẩm:
+                <span id="mbox_hm">56%</span><!-- hm-humidity là độ ẩm-->
+            </div>
+            <div>
+                Gió:
+                <span id="mbox_ws" class="ws">8 km/h</span> <!-- ws-windspeed là gió-->
+            </div>
+        </div>
+    </div>
+    <div class="mbox2">
+        <span aria-level="3" role="heading">
+            <div class="mbox_loc"><!--loc-location là địa điểm-->
+                Cầu Giấy, Hà Nội
+            </div><!---->
+            <div class="mbox_dts"><!--dts-daytimesec-->
+                Thứ Năm 02:00
+            </div>
+            <div class="mbox_dcp"><!--dcp-description-->
+                Mưa to lắm rồi huhuhuhu
+            </div>
+        </span>
+    </div>
+
+</div>
+</body>
+</html>
