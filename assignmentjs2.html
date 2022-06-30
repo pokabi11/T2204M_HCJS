@@ -61,9 +61,11 @@ $.ajax({
         ct.text(data.name+", "+data.sys.country);
         $("#mbox_tm").text(data.main.temp);
         $("#mbox_hm").text(data.main.humidity+"%");
-        $("#mbox_ws").text(data.wind.speed+" km/h")
-        $("#mbox_dcp").text(data.weather[0].description) ;
-        $("#imgstatus").html("<img src='https://ssl.gstatic.com/onebox/weather/64/rain_s_cloudy.png'/>");
+        $("#mbox_ws").text(data.wind.speed+" km/h");
+        $("#mbox_dcp").text(data.weather[0].description);
+        $("#mbox_pp").text(data.precipitation.mode);
+        $("#imgstatus").html("<img src='https://openweathermap.org/img/wn/"+
+            data.weather[0].icon+"@2x.png' />");
     }
 })
 $.ajax({
