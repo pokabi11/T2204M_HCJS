@@ -1,0 +1,19 @@
+.pay-but{
+    top: 50%;
+    left: 50%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.align-middle{
+    text-align: center;
+}
+.totaltopay{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.payamount{
+    font-size: 30px;
+    font-weight: bold;
+}
